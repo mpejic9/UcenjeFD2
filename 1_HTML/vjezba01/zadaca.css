@@ -1,0 +1,75 @@
+body{
+    font-family: sans-serif;
+    background-color: #f4f5f7;
+    margin: 40px;
+}
+
+.naslov{
+    font-family: sans-serif;
+    color: #1f2c46;
+}
+
+.naslov2{
+    color: rgba(240, 50, 50, 0.767);
+    font-style: italic;
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+
+.kocka {
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    max-width: 550px;
+    margin: 20px 0;
+}
+
+
+ul {
+    list-style: none;
+}
+
+ul li::before{
+    content: '✅';
+}
+
+mark {
+    background: #eee;          
+    border-radius: 4px;
+    padding: 3px 6px;
+    font-family: monospace;     
+    color: #333;
+    font-size: 14px;
+}
+
+.zuti {
+    background: yellow;
+    font-size: 16px;
+}
+
+.dvadva {
+    color: red;
+    background: none;
+    font-size: 16px;
+}
+
+.veliko{
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+
+.dekoracija {
+    font-size: 25px;
+}
+
+.narančasto {
+    color: #ff6600;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.em {
+    font-size: 16px;
+    font-style: normal;
+    color: black;
+}
