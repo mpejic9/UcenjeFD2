@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #dfe7eb;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.kartica {
+    width: 330px;
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+}
+
+.kartica img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.oznaka {
+    position: absolute;
+    background: #007bff;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 8px;
+    font-size: 12px;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.kartica-info {
+    padding: 20px;
+}
+
+.kartica-info h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.kartica-info p {
+    color: #555;
+    margin-top: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+ul li::before {
+    content: "✔";
+    color: #007bff;
+    margin-right: 8px;
+}
+
+.price {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.crte {
+    border-top: 1px solid #dcdcdc;
+    border-bottom: 1px solid #dcdcdc;
+    padding: 0px 0;
+    margin: 0px 0;
+}
