@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Obrazac</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="lokot">🔒</div>
+    <div class="login">
+    <form action="https:origo.hr" method="get">
+        
+        <fieldset>
+            <legend>Sigurna prijava</legend>
+            <br>
+            <label for="korime">Korisničko ime</label>
+            <br>
+            <input type="text" name="korime" placeholder="admin">
+            <br>
+            <br>
+            <label for="lozinka">Lozinka</label>
+            <br>
+            <input type="password" name="lozinka" >
+            <br>
+            <br>
+            <input type="checkbox">
+            <label for="uredaj">Zapamti uređaj</label>
+            <br>
+            <br>
+            <button type="submit">Prijavi se</button>
+           
+        </fieldset>
+    </form>
+    </div>
+
+    <div class="tablica">
+        <h3>Nedavne aktivnosti prijave</h3>
+
+        <table>
+            <tr>
+                <th>IP ADRESA</th>
+                <th>VRIJEME</th>
+                <th>STATUS</th>
+            </tr>
+
+            <tr>
+                <td>192.168.1.16</td>
+                <td>12:45</td>
+                <td class="success">Uspjeh</td>
+            </tr>
+
+
+
+            <tr>
+                <td>10.0.0.52</td>
+                <td>Jučer</td>
+                <td class="error">Greška</td>
+            </tr>
+
+
+            <tr>
+                <td>88.102.x.x</td>
+                <td>01.12</td>
+                <td></td>
+            </tr>
+        </table>
+
+
+        <div class="podnozje">Prikaz zadnja 3 pokušaja</div>
+
+    </div>
+</body>
+</html>
