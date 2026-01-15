@@ -1,3 +1,22 @@
 body{
     background-color: antiquewhite;
 }
+
+@font-face{
+    font-family: 'Ljubav';
+    src: url('../fonts/LavishlyYours-Regular.ttf') format('truetype');
+}
+
+@font-face{
+    font-family: 'Galada';
+    src: url('../fonts/Galada-Regular.ttf') format('truetype');
+}
+
+@font-face{
+    font-family: 'Chillax';
+    src: url('../fonts/Chillax-Regular.woff2') format('woff2');
+}
+
+h1{
+    font-family: 'Chillax', 'Times New Roman', serif;
+}
