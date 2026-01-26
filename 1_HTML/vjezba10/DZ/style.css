@@ -1,0 +1,188 @@
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f6f8;
+  color: #333;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+h2, h3, h4 {
+  color: #1a1a1a;
+}
+
+a {
+  text-decoration: none;
+}
+
+button, .button {
+  border-radius: 8px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+/* --- NAVBAR --- */
+.top-bar, 
+.top-bar .menu, 
+.top-bar .menu li {
+    background-color: #1d4ed8 !important; 
+}
+
+.top-bar a, .menu-text a {
+  color: white !important;
+  font-weight: 600;
+}
+
+.top-bar a:hover {
+  color: #facc15 !important; 
+}
+
+.title-bar {
+  background-color: #1d4ed8;
+  color: white;
+}
+
+/* --- CALL TO ACTION --- */
+.callout.primary {
+  background-color: #2563eb;
+  color: white;
+  border-radius: 10px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+/* --- BUTTONS --- */
+.button.alert {
+  background-color: #ef4444;
+  color: white;
+}
+
+.button.alert:hover {
+  background-color: #b91c1c;
+}
+
+.button.success {
+  background-color: #10b981;
+  color: white;
+}
+
+.button.success:hover {
+  background-color: #047857;
+}
+
+.button.large {
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+}
+
+/* --- ORBIT CAROUSEL --- */
+.orbit-container {
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  margin-bottom: 2rem;
+}
+
+/* Orbit carousel slike */
+.orbit-slide img {
+  width: 100%;        
+  max-height: 400px;  
+  object-fit: cover;  
+  display: block;
+  border-radius: 10px; 
+}
+
+
+
+/* --- CARDS --- */
+.card {
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-section h4 {
+  color: #1d4ed8;
+}
+
+/* --- ACCORDION --- */
+.accordion-title {
+  font-weight: bold;
+  background-color: #e0e7ff;
+  border-radius: 8px;
+  padding: 0.8rem 1rem;
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.accordion-title:hover {
+  background-color: #c7d2fe;
+}
+
+.accordion-content {
+  padding: 1rem;
+  background-color: white;
+  border-left: 3px solid #1d4ed8;
+  border-radius: 0 0 8px 8px;
+}
+
+/* --- FORM --- */
+form {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  max-width: 500px;
+  margin: 2rem auto;
+}
+
+form label {
+  font-weight: 600;
+}
+
+form input[type="text"],
+form input[type="email"] {
+  border-radius: 8px;
+  border: 1px solid #cbd5e1;
+  padding: 0.6rem 0.8rem;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+form input[type="checkbox"] {
+  margin-right: 0.5rem;
+}
+
+/* --- GRID / LAYOUT --- */
+.grid-container {
+  padding: 2rem 1rem;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background-color: #cbd5e1;
+  margin: 3rem 0;
+}
+
+.grid-container h2{
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    color:#1d4ed8
+}
+
+/* --- RESPONSIVE --- */
+@media (max-width: 640px) {
+  .button.large {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+}
